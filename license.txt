@@ -1,0 +1,5 @@
+LICENCIJA
+
+Copyright © 2025 Vilniaus universitetas
+Autorius: Mantas Ragaišis
+Github: https://github.com/MantasRag/Objektinis-programavimas-3/tree/v3.0
