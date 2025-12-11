@@ -12,15 +12,21 @@ FILESUBTYPE     VFT2_UNKNOWN
 BEGIN
     BLOCK "StringFileInfo"
     BEGIN
-        BLOCK "040904b0"  // anglų + Unicode, minimalus
+        BLOCK "042704b0"  // Lithuanian language + Unicode
         BEGIN
-            VALUE "FileVersion", "3.0.0.0\0"
-            VALUE "ProductVersion", "3.0.0.0\0"
+            VALUE "CompanyName",      "Vilniaus Universitetas\0"
+            VALUE "FileDescription",  "Studentų rezultatų skaičiavimo programa\0"
+            VALUE "FileVersion",      "3.0.0.0\0"
+            VALUE "InternalName",     "Studentai_v3\0"
+            VALUE "LegalCopyright",   "Copyright © 2025 VU Vardenis-Pavardenis\0"
+            VALUE "OriginalFilename", "Studentai_v3.exe\0"
+            VALUE "ProductName",      "Studentų Programa v3.0\0"
+            VALUE "ProductVersion",   "3.0.0.0\0"
         END
     END
     BLOCK "VarFileInfo"
     BEGIN
-        VALUE "Translation", 0x409, 1200
+        VALUE "Translation", 0x427, 1200  // Lithuanian, Unicode
     END
 END
 
